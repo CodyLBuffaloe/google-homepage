@@ -5,17 +5,54 @@ li{
 footer, .search_bar input[type="button"]{
 	background: #C0C0C0;
 }
-#user_nav{
+.user_nav{
 	position:absolute;
 	right: 5px;
+	top: 13.5px;
 
 }
 
-#user_nav input[type="button"]{
+.user_nav input[type="button"]{
 	width: 100px; height: 30px;
 	background:#4169E1;
 	border: #4169E1;
 	border-radius: 3px;
+}
+
+#logo{
+	position: absolute;
+	top: 200px;
+	bottom:200px;
+	left:550px;
+	margin:0;
+	padding:0;
+	max-height:300px;
+	max-width:270px;
+}
+
+.search_bar{
+	display:inline-block;
+}
+
+.search_bar input[type="search"]{
+	height:35px;
+	width:600px;
+	position: absolute;
+	top: 325px;
+	bottom:600px;
+	left:400px;
+	color:blue;
+}
+
+#reg_search{
+	position: absolute;
+	top: 375px;
+	left:500px;
+}
+#ifl_search{
+	position: absolute;
+	top: 375px;
+	left:600px;
 }
 a{
 	text-decoration: none;
