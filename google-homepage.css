@@ -13,10 +13,12 @@ footer, .search_bar input[type="button"]{
 }
 
 .user_nav input[type="button"]{
-	width: 100px; height: 30px;
+	width: 43.31px; height: 28px;
 	background:#4169E1;
 	border: #4169E1;
 	border-radius: 3px;
+	font-family: arial;
+	font-size: 12px;
 }
 
 #logo{
@@ -26,8 +28,8 @@ footer, .search_bar input[type="button"]{
 	left:550px;
 	margin:0;
 	padding:0;
-	max-height:300px;
-	max-width:270px;
+	max-height:92px;
+	max-width:272px;
 }
 
 .search_bar{
@@ -35,27 +37,39 @@ footer, .search_bar input[type="button"]{
 }
 
 .search_bar input[type="search"]{
-	height:35px;
-	width:600px;
+	height:40px;
+	width:595px;
 	position: absolute;
-	top: 325px;
+	top: 320px;
 	bottom:600px;
-	left:400px;
+	left:397px;
 	color:blue;
 }
 
 #reg_search{
 	position: absolute;
 	top: 375px;
-	left:500px;
+	left:535px;
+	height:34px;
+	width:131px;
+	padding:0 16;
+	margin: 11 4;
+	border:1;
 }
 #ifl_search{
 	position: absolute;
 	top: 375px;
-	left:600px;
+	left:675px;
+	height:34px;
+	width:131px;
+	padding:0 16;
+	margin: 11 4;
+	border:1;
 }
 a{
 	text-decoration: none;
+	color:gray;
+
 }
 footer{
 	position: absolute;
