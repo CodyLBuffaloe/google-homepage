@@ -3,22 +3,42 @@ li{
 	display: inline;
 }
 footer, .search_bar input[type="button"]{
-	background: #C0C0C0;
+	background: #F2F2F2;
 }
 .user_nav{
 	position:absolute;
-	right: 5px;
-	top: 13.5px;
+	display:inline-block;
+	right:30px;
+	top:12px;
+	word-spacing: 28px;
+}
+.user_nav a:link{
+	color:#696969;
+	line-height:28px;
+	font-size:13px;
+	font-family:arial, sans-serif;
+}
 
+.user_nav img{
+	width:20px;
+	height:20px;
+	margin:0;
+	padding:0;
+	border:0;
+	display:inline-block;
+	top:15px;
 }
 
 .user_nav input[type="button"]{
-	width: 43.31px; height: 28px;
-	background:#4169E1;
-	border: #4169E1;
-	border-radius: 3px;
+	width: 69.3167px; height: 30px;
+
+	background:#4387FD;
+	border: 1px #4387FD;
+	border-radius: 1.5px;
 	font-family: arial;
-	font-size: 12px;
+	font-weight:bold;
+	font-size: 13px;
+	color:#FFF;
 }
 
 #logo{
@@ -43,32 +63,47 @@ footer, .search_bar input[type="button"]{
 	top: 320px;
 	bottom:600px;
 	left:397px;
-	color:blue;
+	color:#4387FD;
+
 }
 
 #reg_search{
 	position: absolute;
-	top: 375px;
+	top: 383px;
 	left:535px;
-	height:34px;
+	height:36px;
 	width:131px;
 	padding:0 16;
 	margin: 11 4;
-	border:1;
+	border:1px solid #F2F2F2;
+	font-family: arial, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	text-align: center;
+	background-color: #F2F2F2;
+
 }
 #ifl_search{
 	position: absolute;
-	top: 375px;
+	top: 383px;
 	left:675px;
-	height:34px;
+	height:36px;
 	width:131px;
 	padding:0 16;
 	margin: 11 4;
-	border:1;
+	border:1px solid #F2F2F2;
+	font-family: arial, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	text-align: center;
+	background-color: #F2F2F2;
+	
 }
+
 a{
 	text-decoration: none;
-	color:gray;
 
 }
 footer{
@@ -76,12 +111,20 @@ footer{
 	bottom:0;
 	height: 45px;
 	width: 100%;
+	font-family:arial, sans-serif;
+	font-size:10pt;
+
 }
 .r_links{
 	position:absolute;
-	right: 10px;
+	right: 15px;
 	bottom: 15px;
-	word-spacing:30px;
+	word-spacing:28px;
+	
+
+}
+.r_links a:link, .l_links a:link{
+	color:#666;
 
 }
 
@@ -89,5 +132,6 @@ footer{
 	position:absolute;
 	left: 10px;
 	bottom: 15px;
-	word-spacing: 30px;
+	word-spacing: 28px;
+	
 }
