@@ -1,0 +1,77 @@
+.navbar{
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #E5E5E5;
+	height:59px; width:100%;
+	position:absolute;
+	top:0;
+	display:inline-block;
+	
+}
+#logo{
+	background-image: url('https://www.google.com/images/nav_logo231.png');
+	background-repeat: no-repeat;
+	height:37px;
+	width:160px;
+	background-position: 0px -375px;
+	position: relative;
+	top:14px;
+	left:10px;
+}
+#Sign_in{
+	width: 69.3167px; height: 30px;
+	position:absolute;
+	background:#4387FD;
+	border: 1px #4387FD;
+	border-radius: 1.5px;
+	font-family: arial;
+	font-weight:bold;
+	font-size: 13px;
+	color:#FFF;
+	top:15px;
+	right:35px;
+}
+
+.navbar input[type="search"]{
+	position: absolute;
+	top:12px;
+	width: 600px;
+	height: 30px;
+	left: 125px;
+	font-family: arial, sans-serif;
+	font-size: 12pt;
+}
+#icon{
+	position:absolute;
+	top:12px;
+	left:725px;
+	height:45px;
+	width:38px;
+	background-color:#4387FD;
+	border: 1px solid #4387FD;
+}
+.goog_links_box{
+	position:absolute;
+	width:100%;
+	height:69px;
+	background-color: #F1F1F1;
+	border-top: 1px solid #E5E5E5;
+	bottom:0;
+	
+}
+.goog_links_box a{
+	text-decoration: none;
+	color: #666;
+}
+.g_links{
+	position:absolute;
+	bottom:8px;
+	left:150px;
+	line-height: 28px;
+}
+
+li{
+	display: inline-block;
+	font-family:arial, sans-serif;
+	font-size:10pt;
+}
+
