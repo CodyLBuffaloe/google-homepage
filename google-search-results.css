@@ -15,7 +15,7 @@
 	background-position: 0px -375px;
 	position: relative;
 	top:14px;
-	left:10px;
+	left:15px;
 }
 #Sign_in{
 	width: 69.3167px; height: 30px;
@@ -28,27 +28,109 @@
 	font-size: 13px;
 	color:#FFF;
 	top:15px;
-	right:35px;
+	right:45px;
 }
 
 .navbar input[type="search"]{
 	position: absolute;
-	top:12px;
-	width: 600px;
-	height: 30px;
+	top:10px;
+	width: 592px;
+	height: 40px;
 	left: 125px;
 	font-family: arial, sans-serif;
-	font-size: 12pt;
+	font-weight: normal;
+	font-size: 11pt;
+	line-height: 26px;
 }
-#icon{
+#search_button{
 	position:absolute;
-	top:12px;
-	left:725px;
-	height:45px;
+	top:10px;
+	left:715px;
+	height:40px;
 	width:38px;
-	background-color:#4387FD;
-	border: 1px solid #4387FD;
+	background-color:#4285F4;
+	background-image: url('https://www.google.com/images/nav_logo231.png');
+	background-repeat: no-repeat;
+	background-position: -107.5px -54px;
+	border: 7px solid #4285F4;
 }
+.rnav_box{
+	height:119px;
+	width:100%;
+	border-bottom: 1px solid #E5E5E5;
+}
+#Web{
+	position:absolute;
+	top:81px;
+	left:135px;
+
+}
+#Videos{
+	position:absolute;
+	top:81px;
+	left:195px;
+}
+#Shopping{
+	position:absolute;
+	top:81px;
+	left:265px;
+}
+#News{
+	position:absolute;
+	top:81px;
+	left:353px;
+}
+#Images{
+	position:absolute;
+	top:81px;
+	left: 418px;
+}
+#More{
+	position:absolute;
+	top:81px;
+	left:493px;
+}
+
+#dwn_arrw{
+	border-color:#909090 transparent;
+	border-style:solid;
+	border-width:4px 4px 0px;
+	width:0px;
+	height:0px;
+	position:absolute;
+	top:87px;
+	left:527px;
+}
+
+#Search_tools{
+	position:absolute;
+	top:81px;
+	left:563px;
+
+}
+
+.results_nav a{
+	text-decoration: none;
+	color:#777;
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+
+}
+
+.results_nav input[type="button"]{
+	width: 69.3167px;
+	height:30px;
+	background-color:#F1F1F1;
+	background-image: url('https://www.google.com/images/nav_logo231.png');
+	background-repeat: no-repeat;
+	background-position: 0px -254px;
+	border:1px solid #E5E5E5;
+	border-radius: 1.5px;
+	position:absolute;
+	top:74px;
+	right:39px; 
+}
+
 .goog_links_box{
 	position:absolute;
 	width:100%;
