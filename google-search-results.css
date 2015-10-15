@@ -1,3 +1,15 @@
+a, p{
+	font-family:arial,sans-serif;
+	text-decoration: none;
+}
+em{
+	font-weight:bold;
+	font-style: normal;
+}
+span{
+	color:#808080;
+}
+
 .navbar{
 	background-color: #F1F1F1;
 	border-bottom: 1px solid #E5E5E5;
@@ -24,7 +36,6 @@
 	width: 592px;
 	height: 40px;
 	left: 125px;
-	font-family: arial, sans-serif;
 	font-weight: normal;
 	font-size: 11pt;
 	line-height: 26px;
@@ -122,9 +133,7 @@
 }
 
 .results_nav a{
-	text-decoration: none;
 	color:#777;
-	font-family: arial, sans-serif;
 	font-size: 10pt;
 
 }
@@ -150,41 +159,105 @@
 	background-color:#F1F1F1;
 	
 }
+#res_specs{
+	position:absolute;
+	top:120px;
+	left:135px;
+	color:#808080;
+	line-height: 43px;
+	font-size: small;
+}
+.results{
+	height:1050px;
+	width:520px;
+	border:1px solid black;
+	float:left;
+	margin:52px 0 70px 140px;
+	line-height: 1.2;
+	text-align: left;
+}
+h3{
+	font-size: 13.56pt;
+	font-weight:normal;
 
+}
+h3 a{
+	color:#1A0DAB;
+}
+.cite{
+	font-size: 14px;
+	color:#006621;
+}
+#c_tri{
+	border-color:#006621 transparent;
+	border-style:solid;
+	border-width:5px 4px 0px;
+	width:0px;
+	height:0px;
+	margin-top: 6px;
+	margin-left: 4px;
+	margin-right: 6px;
+}
+
+.blurb{
+	font-size: 14px;
+	color:#808080;
+}
+#b_tri{
+	border-color:#808080 transparent;
+	border-style:solid;
+	border-width:5px 4px 0px;
+	width:0px;
+	height:0px;
+	margin-top: 6px;
+	margin-left: 4px;
+	margin-right: 8px;
+}
+#res_blur{
+	font-size: small;
+	line-height: 1.4;
+	color:#545454;
+}
+.c_b{
+	display: flex;
+}
+
+.g{
+	margin-bottom: 25px;
+}
 
 .goog_links_box{
-	position:absolute;
+	float:left;
 	width:100%;
 	height:82px;
 	background-color: #F1F1F1;
 	border-top: 1px solid #E5E5E5;
 	bottom:0;
+	clear:both;
 	
 }
 .goog_links_box a{
-	text-decoration: none;
 	color: #666;
-	font-family: arial, sans-serif;
 	font-size: small;
 }
 
 #Help{
-	position: absolute;
-	bottom:12px;
+	float:inherit;
+	bottom:30px;
 	left:135px;
 }
 #Feedback{
-	position: absolute;
+	float:inherit;
 	bottom:12px;
 	left:192px;
 }
 #Privacy{
-	position: absolute;
+	float:inherit;
 	bottom:12px;
 	left:310px;
 }
 #Terms{
-	position: absolute;
+	float:inherit;
 	bottom:12px;
 	left:383px;
 }
