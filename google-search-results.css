@@ -1,4 +1,4 @@
-a, p{
+a, p, h3{
 	font-family:arial,sans-serif;
 	text-decoration: none;
 }
@@ -168,11 +168,10 @@ span{
 	font-size: small;
 }
 .results{
-	height:1050px;
+	height:1005px;
 	width:520px;
-	border:1px solid black;
 	float:left;
-	margin:52px 0 70px 140px;
+	margin:52px 0 0 140px;
 	line-height: 1.2;
 	text-align: left;
 }
@@ -194,25 +193,23 @@ h3 a{
 	border-width:5px 4px 0px;
 	width:0px;
 	height:0px;
-	margin-top: 6px;
-	margin-left: 4px;
-	margin-right: 6px;
+	margin:6px 6px 0 4px;
 }
 
 .blurb{
 	font-size: 14px;
 	color:#808080;
 }
+
 #b_tri{
 	border-color:#808080 transparent;
 	border-style:solid;
 	border-width:5px 4px 0px;
 	width:0px;
 	height:0px;
-	margin-top: 6px;
-	margin-left: 4px;
-	margin-right: 8px;
+	margin:6px 8px 0 4px;
 }
+
 #res_blur{
 	font-size: small;
 	line-height: 1.4;
@@ -224,6 +221,20 @@ h3 a{
 
 .g{
 	margin-bottom: 25px;
+}
+.related_searches{
+	height:175px;
+	width:520px;
+	float:left;
+	clear:left;
+	margin:0 0 20px 140px;
+	border-bottom:1px solid #F1F1F1;
+	border-top: 1px solid #F1F1F1;
+}
+
+#r_s_h{
+	padding-top: 20px;
+	padding-bottom: 7px;
 }
 
 .goog_links_box{
