@@ -180,7 +180,7 @@ h3{
 	font-weight:normal;
 
 }
-h3 a{
+h3 a, .r_s_col a{
 	color:#1A0DAB;
 }
 .cite{
@@ -223,7 +223,7 @@ h3 a{
 	margin-bottom: 25px;
 }
 .related_searches{
-	height:175px;
+	height:160px;
 	width:520px;
 	float:left;
 	clear:left;
@@ -237,7 +237,27 @@ h3 a{
 	padding-bottom: 7px;
 }
 
-.goog_links_box{
+.r_s_col {
+	font-size: 13px;
+	line-height: 20px;
+	padding-right: 16px;
+	display: inline-block;
+	padding-bottom: 1px;
+}
+
+.r_s_col p{
+	padding-top: 5px;
+}
+
+table{
+	height:56px;
+	width:308px;
+	float:left;
+	clear:left;
+	margin-left: 200px;
+}
+
+footer{
 	float:left;
 	width:100%;
 	height:82px;
@@ -247,28 +267,59 @@ h3 a{
 	clear:both;
 	
 }
-.goog_links_box a{
+footer a, .approx_loc a{
 	color: #666;
 	font-size: small;
+}
+.set_loc{
+	width:500px;
+	height:20px;
+	float: inherit;
+	margin-left: 137px;
+	margin-top: 20px;
+	display:inline;
+}
+#circle{
+	height:8px;
+	width:8px;
+	border-radius:100%;
+	display:inline-block;
+	float:inherit;
+	background:#9A9FA4;
+	border:1px solid #9A9FA4;
+	margin:1px 5px 10px 1px;
+}
+.approx_loc{
+	font-size: small;
+	display:inline-block;
+	text-align: left;
+	float:inherit;
+}
+.approx_loc p{
+	color:#AAA;
+}
+
+
+.g_links{
+	line-height: 30px;
+	margin: 20px 0 0 110px;
+	clear:left;
+
 }
 
 #Help{
 	float:inherit;
-	bottom:30px;
-	left:135px;
+	padding-left:27px;
 }
 #Feedback{
 	float:inherit;
-	bottom:12px;
-	left:192px;
+	padding-left:27px;
 }
 #Privacy{
 	float:inherit;
-	bottom:12px;
-	left:310px;
+	padding-left:27px;
 }
 #Terms{
-	float:inherit;
-	bottom:12px;
-	left:383px;
+	float: inherit;
+	padding-left:27px;
 }
